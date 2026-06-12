@@ -1,0 +1,13 @@
+# Model binaries NEVER go in git — they live on HuggingFace. This repo is text/config only.
+*.litertlm
+*.tflite
+*.task
+*.bin
+*.safetensors
+sentencepiece.model
+
+# HuggingFace download cache, if it lands locally
+**/.cache/
+.huggingface/
+__pycache__/
+*.pyc

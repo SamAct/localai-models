@@ -1,0 +1,11 @@
+Gemma is provided under and subject to the Gemma Terms of Use found at
+ai.google.dev/gemma/terms.
+
+The model file(s) in this repository are Model Derivatives of Google Gemma
+(LiteRT-LM / LiteRT format conversions), redistributed unmodified. Your use is
+governed by:
+  - Gemma Terms of Use           https://ai.google.dev/gemma/terms
+  - Gemma Prohibited Use Policy   https://ai.google.dev/gemma/prohibited_use_policy
+
+This is a mirror for the LocalDocs / LocalNotes on-device apps. It is not
+affiliated with or endorsed by Google.

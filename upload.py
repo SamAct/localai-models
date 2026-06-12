@@ -110,6 +110,9 @@ def main() -> None:
         api.create_repo(dst, repo_type="model", private=False, exist_ok=True)
         api.upload_file(path_or_fileobj=notice.encode(), path_in_repo="NOTICE.txt", repo_id=dst)
         for f in m["files"]:
+            if api.file_exists(dst, f):  # idempotent: re-runs only do what's missing
+                print(f"  skip {f} (already on {dst})")
+                continue
             local = m["local"].get(f)
             if local and os.path.exists(local):
                 src_path = local

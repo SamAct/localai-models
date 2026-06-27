@@ -57,7 +57,8 @@
         }
       ],
       "updateInfo": "The updated model now leverages Gemma 4's built-in Multi Token Prediction (MTP) for faster decode on select workloads. You can enable or disable MTP using a new toggle in chat configuration.",
-      "url": "https://huggingface.co/SamAct/gemma-4-E2B-it-litert-lm/resolve/main/gemma-4-E2B-it.litertlm?download=true"
+      "url": "https://pub-5d1729e4ac244e54a901be427657db05.r2.dev/gemma-4-E2B-it.litertlm",
+      "expectedSha256": "181938105e0eefd105961417e8da75903eacda102c4fce9ce90f50b97139a63c"
     },
     {
       "name": "Gemma-4-E4B-it",
@@ -116,7 +117,8 @@
         }
       ],
       "updateInfo": "The updated model now leverages Gemma 4's built-in Multi Token Prediction (MTP) for faster decode on select workloads. You can enable or disable MTP using a new toggle in chat configuration.",
-      "url": "https://huggingface.co/SamAct/gemma-4-E4B-it-litert-lm/resolve/main/gemma-4-E4B-it.litertlm?download=true"
+      "url": "https://pub-5d1729e4ac244e54a901be427657db05.r2.dev/gemma-4-E4B-it.litertlm",
+      "expectedSha256": "0b2a8980ce155fd97673d8e820b4d29d9c7d99b8fa6806f425d969b145bd52e0"
     },
     {
       "name": "Gemma-3n-E2B-it",
